@@ -74,6 +74,10 @@ land_fallow <- land_fallow %>%
 
 ## participate in ag data--------- 
 
+# added by Yang. You need to convert label to numerical
+library(haven)
+baseline$farm_yn <- as_factor(baseline$farm_yn)
+baseline$farm_yn <- as.numeric(levels(baseline$farm_yn))[baseline$farm_yn]
 agfa <- baseline %>% group_by(village) %>% summarize(prop_farm = sum(farm_yn)/n())
 
 ## household asset data--------- 

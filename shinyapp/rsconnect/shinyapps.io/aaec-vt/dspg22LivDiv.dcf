@@ -1,0 +1,14 @@
+name: dspg22LivDiv
+title: dspg22LivDiv
+username:
+account: aaec-vt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11221229
+bundleId: 8253578
+url: https://aaec-vt.shinyapps.io/dspg22LivDiv/
+when: 1707883703.19153
+lastSyncTime: 1707883703.19155
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data
